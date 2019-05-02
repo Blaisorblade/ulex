@@ -1,7 +1,2 @@
-OCAMLBUILD=ocamlbuild -byte-plugin
-
-all::
-	$(OCAMLBUILD) pa_ulex.cma
-
-clean:
-	$(OCAMLBUILD) -clean
+test:
+	ocamlc -c -I /usr/local/lib/ocaml/camlp4 -o pa_ulex.cmo pa_ulex.ml

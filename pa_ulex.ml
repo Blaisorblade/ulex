@@ -1,1 +1,1 @@
-open Camlp4.PreCast
+open Camlp4
